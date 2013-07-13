@@ -5,6 +5,7 @@
 # Install nvm: node-version manager
 # https://github.com/creationix/nvm
 wget -O install-nvm.sh https://raw.github.com/creationix/nvm/master/install.sh
+chmod +x install-nvm.sh
 ./install-nvm.sh
 
 # Load nvm and install latest production node
