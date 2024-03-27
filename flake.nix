@@ -112,10 +112,10 @@
 	};
 
 	home.file = {
-    	    "./.config/nvim/init.lua".source = config.lib.file.mkOutOfStoreSymlink ../dotfiles/neovim/config.lua;
-	    ".wezterm.lua".source = config.lib.file.mkOutOfStoreSymlink ..dotfiles/wezterm/config.lua;
-	    "./.config/tmuxp/session.yaml".source = config.lib.file.mkOutOfStoreSymlink ..dotfiles/tmuxp/config.yaml;
-	    "init.el".source = config.lib.file.mkOutOfStoreSymlink ...emacs.d/init.el;
+		"./.config/nvim/init.lua".source = config.lib.file.mkOutOfStoreSymlink "${config.home.homeDirectory}/dotfiles/neovim/config.lua";
+		".wezterm.lua".source = config.lib.file.mkOutOfStoreSymlink "${config.home.homeDirectory}/dotfiles/wezterm/config.lua";
+		"./.config/tmuxp/session.yaml".source = config.lib.file.mkOutOfStoreSymlink "${config.home.homeDirectory}/dotfiles/tmuxp/config.yaml";
+		"./.emacs.d".source = config.lib.file.mkOutOfStoreSymlink "${config.home.homeDirectory}/dotfiles/emacs";
   	};
 
 	home.packages = with pkgs; [
