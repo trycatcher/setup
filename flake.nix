@@ -49,7 +49,10 @@
 
 	homebrew = {
 	    enable = true;
-            onActivation.cleanup = "uninstall";
+	    onActivation = {
+		autoUpdate = true;
+		cleanup = "zap";
+	    };
 	    taps = [
 		"homebrew/cask-fonts"
 		"railwaycat/emacsmacport"
