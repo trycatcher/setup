@@ -74,6 +74,10 @@
 		"element"
 		"firefox"
 		"google-chrome"
+		"zed"
+		"whatsapp"
+		"zoom"
+		"telegram"
 	    ];
 
 	};
@@ -119,8 +123,8 @@
   	};
 
 	home.packages = with pkgs; [
-	    neofetch
 	    wget
+            neofetch
 	    ledger
 	    ripgrep
 	    tmux
@@ -130,6 +134,10 @@
 	    docker
 	    docker-compose
 	    gh
+	    multimarkdown
+	    pandoc
+	    tectonic
+	    hugo
 	];
 	
 	home.sessionVariables.EDITOR = "nvim";
