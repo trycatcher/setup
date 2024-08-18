@@ -133,14 +133,17 @@
 	    tmux
 	    tmuxp
 	    tarsnap
-	    colima
-	    docker
-	    docker-compose
 	    gh
 	    multimarkdown
 	    pandoc
 	    tectonic
 	    hugo
+	    go
+	    nodejs
+	    temurin-jre-bin-11
+            maven
+            clojure
+	    magic-wormhole
 	];
 	
 	home.sessionVariables.EDITOR = "nvim";
