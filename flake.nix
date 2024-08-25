@@ -134,6 +134,7 @@
           ripgrep
           tmux
           tmuxp
+          postgresql
           tarsnap
           gh
           multimarkdown
@@ -146,6 +147,11 @@
           maven
           clojure
           magic-wormhole
+          shellcheck
+          shfmt
+          gnupg
+          aerc
+          kitty
         ];
 
         home.sessionVariables.EDITOR = "nvim";
