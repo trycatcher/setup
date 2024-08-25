@@ -78,6 +78,8 @@
             "whatsapp"
             "zoom"
             "telegram"
+            "docker"
+            "cursor"
           ];
 
         };
