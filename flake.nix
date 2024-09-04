@@ -154,7 +154,6 @@
           shfmt
           gnupg
           aerc
-          kitty
           direnv
         ];
 
