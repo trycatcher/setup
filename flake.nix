@@ -131,6 +131,7 @@
 
         home.packages = with pkgs; [
           wget
+          tree
           neofetch
           ledger
           ripgrep
