@@ -155,6 +155,7 @@
           gnupg
           aerc
           kitty
+          direnv
         ];
 
         home.sessionVariables.EDITOR = "nvim";
