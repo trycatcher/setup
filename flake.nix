@@ -45,7 +45,7 @@
         # Create /etc/zshrc that loads the nix-darwin environment.
         programs.zsh.enable = true;
 
-        environment.systemPackages = with pkgs; [ nixfmt ];
+        environment.systemPackages = with pkgs; [ nixfmt-rfc-style ];
 
         homebrew = {
           enable = true;
