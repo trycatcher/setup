@@ -151,6 +151,7 @@
           clojure
           magic-wormhole
           flutter
+          cocoapods
           shellcheck
           shfmt
           gnupg
