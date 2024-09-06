@@ -160,6 +160,7 @@
             magic-wormhole
             flutter
             cocoapods
+            babashka
             shellcheck
             shfmt
             gnupg
