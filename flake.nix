@@ -150,6 +150,7 @@
           maven
           clojure
           magic-wormhole
+          flutter
           shellcheck
           shfmt
           gnupg
